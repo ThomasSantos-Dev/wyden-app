@@ -14,9 +14,11 @@
     <!-- Path to Framework7 Library Bundle CSS -->
     <link rel="stylesheet" href="lib/framework7-bundle.min.css">
     <!-- CSS PERSONALIZADO PARA MENU-->
-    <link rel="stylesheet" href="css/personalizado.css">
+    <link rel="stylesheet" href="css/index.css">
     <!--Ícones Material Design-->
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
+     <!--Ícones do Remix icon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
 
 
 </head>
@@ -32,20 +34,20 @@
             <div class="toolbar toolbar-bottom">
                 <div class="toolbar-inner display-flex">
                     <a href="/index/" class="tab-link link active">
-                        <i class="mdi mdi-home"></i>
-                        <span>Link 1</span>
+                        <i class="ri-home-5-line"></i>
+                        <span>Home</span>
                     </a>
                     <a href="/link2/" class="tab-link link">
-                        <i class="mdi mdi-link"></i>
-                        <span>Link 2</span>
+                        <i class="ri-search-2-line"></i>
+                        <span>Busca</span>
                     </a>
                     <a href="/link3/" class="tab-link link">
-                        <i class="mdi mdi-account"></i>
-                        <span>Link 3</span>
+                        <i class="ri-heart-3-line"></i>
+                        <span>Favoritos</span>
                     </a>
                     <a href="/link4/" class="tab-link link">
-                        <i class="mdi mdi-magnify"></i>
-                        <span>Link 4</span>
+                        <i class="ri-user-line"></i>
+                        <span>Usuários</span>
                     </a>
                 </div>
             </div>
@@ -53,21 +55,39 @@
             <!-- Initial Page, "data-name" contains page name -->
             <div data-name="index" class="page color-theme-blue">
 
-                <!-- Top Navbar -->
-                <div class="navbar">
-                    <div class="navbar-bg"></div>
-                    <div class="navbar-inner justify-content-center">
-                        <div class="title ">UsoGriffe</div>
-                    </div>
-                </div>
 
+                <!-- NAV TOP -->
+                 <div class="top-nav">
+                    <h1 class="title-logo">Uso<span>Griffe</span></h1>
+                    <a href="#" class="btn-cart" data-count="1">
+                        <i class="ri-shopping-bag-line"></i>
+                    </a>
+                 </div>
+
+                 <form>
+                    <input placeholder="O que voce procura?" type="text">
+                    <i class="icone-busca ri-search-2-line"></i>
+                 </form>
                 <!-- Scrollable page content -->
                 <div class="page-content">
                     <div class="block">
-                        <p>
-                            link 1
-                            Pelo sport nada, tudo.
-                        </p>
+                      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+            
+      <div class="swiper-slide">
+            <img class="img-fluid" src="banners/banner1.png">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="banners/banner 2.png">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="banners/banner 3.png">
+      </div>
+    
+    <div class="swiper-pagination"></div>
+  </div>
+                        
                     </div>
                 </div>
             </div>
