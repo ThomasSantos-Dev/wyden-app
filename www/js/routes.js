@@ -58,6 +58,12 @@ var app = new Framework7({
       }
      
     });
+
+    var swiper2 = new Swiper(".categorias", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+    });
     
 
 		},
