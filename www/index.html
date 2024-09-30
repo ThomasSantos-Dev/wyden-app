@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="lib/framework7-bundle.min.css">
     <!-- CSS PERSONALIZADO PARA MENU-->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/detalhes.css">
     <!--Ícones Material Design-->
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
      <!--Ícones do Remix icon-->
@@ -31,7 +32,7 @@
         <div class="view view-main">
 
             <!-- TAB BAR-->
-            <div class="toolbar toolbar-bottom">
+            <div id="menuPrincipal" class="toolbar toolbar-bottom">
                 <div class="toolbar-inner display-flex">
                     <a href="/index/" class="tab-link link active">
                         <i class="ri-home-5-line"></i>
@@ -70,7 +71,7 @@
                  </form>
                 <!-- Scrollable page content -->
                 <div class="page-content">
-                    <div class="block">
+                    <div class="block no-margin-top">
                       <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -150,7 +151,7 @@
   <div id="produtos" class=" margin-top row display-flex align-items-center justify-content-start">
     <!-- ITEM CARD -->
     <div class="item-card">
-      <a href="#" class="item">
+      <a href="/detalhes/" class="item">
         <div class="img-container">
              <img class="produtos-margin" src="./banners/camisa-gola-alta-canelada-preta.png">
           </div>
@@ -168,7 +169,7 @@
 
      <!-- ITEM CARD -->
     <div class="item-card">
-      <a href="#" class="item">
+      <a href="/#/" class="item">
         <div class="img-container">
           <img class="produtos-margin" src="./banners/camisa-babi-rosa.png">
         </div>

@@ -198,7 +198,7 @@ background: var(--branco);
     flex-direction: column;
     height: 250px;
     flex: 45%;
-    margin-right: 5px;
+    margin-right: 15px;
     margin-bottom: 15px;
   }
 
