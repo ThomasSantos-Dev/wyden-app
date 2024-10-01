@@ -4,6 +4,7 @@
     --marron: #cf7c0f;
     --preto: #2a2a2a;
     --marrom-ajustado: #744b15a6;
+    --verde: #06c406;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -176,6 +177,13 @@ background: var(--branco);
     overflow: hidden;
     text-overflow: ellipsis;
 
+  }
+
+  .filter-btn.active{
+   background:var(--marrom-ajustado);
+   color: var(--branco);
+   border: none;
+    
   }
 
   .img-fluid {

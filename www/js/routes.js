@@ -20,7 +20,9 @@ var app = new Framework7({
     {
       path: '/index/',
       url: 'index.html',
-      animate: false,
+      options: { //option ele faz o efeito de abrir pro lado
+        transition: 'f7-push',
+      },
 	  on: {
 		pageBeforeIn: function (event, page) {
 		// fazer algo antes da página ser exibida
@@ -31,7 +33,7 @@ var app = new Framework7({
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
-    app.views.main.router.navigate('/carrinho/'); 
+    //app.views.main.router.navigate('/carrinho/'); 
     $.getScript('js/index.js');
 
     var swiper = new Swiper(".mySwiper", {
@@ -174,7 +176,9 @@ var app = new Framework7({
     {
       path: '/carrinho/',
       url: 'carrinho.html',
-      animate: false,
+      options: {
+        transition: 'f7-push',
+      },
 	  on: {
 		pageBeforeIn: function (event, page) {
 		// fazer algo antes da página ser exibida
