@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/camisa-gola-alta-canelada-preta.png",
+        "nome": "Camisa Gola alta canelada",
+        "rating": 3.8,
+        "likes": "90%",
+        "principal_caracteristica": "100% Algodão",
+        "reviews": 25,
+        "preco": 39.99,
+        "descricao": "Camisa Feminina Gola Alta Canelada PretaAposte na elegância e versatilidade com esta camisa feminina gola alta canelada. Com um design moderno e sofisticado, ela é perfeita para compor looks que vão do casual ao mais formal. Feita com tecido de alta qualidade, a camisa oferece um toque macio e ajuste confortável ao corpo, destacando-se pelo seu acabamento canelado, que traz um charme especial à peça. Ideal para os dias mais frescos, sua gola alta proporciona estilo e conforto. Combine com calças jeans, saias ou blazers para criar produções incríveis e cheias de personalidade.",
+        "preco_promocional": 34.99
+    },
+    {
+        "id": 2,
+        "imagem": "img/camisa-babi-rosa.png",
+        "nome": "Camisa Babi",
+        "principal_caracteristica": "100% Algodão",
+        "rating": 4.8,
+        "likes": "94%",
+        "reviews": 15,
+        "preco": 44.99,
+        "descricao":"Camisa Babi Rosa Delicada e cheia de charme, a Camisa Babi Rosa é a peça perfeita para trazer leveza e estilo ao seu guarda-roupa. Com seu corte moderno e caimento fluido, ela combina conforto com elegância. A cor rosa suave acrescenta um toque feminino e romântico, ideal para compor looks tanto para o dia quanto para a noite. Versátil, a Camisa Babi pode ser usada em diversas ocasiões, seja no trabalho ou em momentos de lazer, garantindo sempre um visual sofisticado. Combine com calças, saias ou shorts para uma produção cheia de estilo",
+        "preco_promocional": 39.99
+    },
+    {
+        "id": 3,
+        "imagem": "img/camisa-gola-alta-com-manga.png",
+        "nome": "Camisa gola alta com manga",
+        "rating": 4.5,
+        "likes": "96%",
+        "reviews": 25,
+        "preco": 44.99,
+        "descricao":"A Camisa Gola Alta com Manga é a escolha perfeita para quem busca um visual elegante e atemporal. Com um design clássico e versátil, essa peça proporciona sofisticação sem abrir mão do conforto. A gola alta adiciona um toque refinado, enquanto as mangas garantem um caimento impecável que valoriza qualquer silhueta. Ideal para dias mais frescos, essa camisa pode ser usada sozinha ou em camadas, permitindo combinações variadas para diferentes ocasiões. Seja no escritório ou em eventos casuais, é uma peça curinga que eleva o estilo de qualquer look.",
+        "preco_promocional":39.99
+    },
+    {
+        "id": 4,
+        "imagem": "img/camisa-regata-canelada.png",
+        "nome": "Camisa regata canelada",
+        "principal_caracteristica": "100% Algodão",
+        "rating": 4.8,
+        "likes": "89%",
+        "reviews": 30,
+        "preco": 44.99,
+        "descricao":"Simples e versátil, a Camisa Canelada Regata Cinza é um item indispensável no guarda-roupa de quem busca estilo e praticidade. Com modelagem ajustada ao corpo, a textura canelada oferece um toque moderno, enquanto o tecido leve e confortável garante liberdade de movimento. A cor cinza neutra é fácil de combinar, perfeita para criar looks casuais e despojados ou para usar como peça básica em produções mais elaboradas. Seja nos dias quentes ou como parte de um look sobreposto, essa regata é uma escolha curinga para diversas ocasiões",
+        "preco_promocional": 39.99
+    }
+]

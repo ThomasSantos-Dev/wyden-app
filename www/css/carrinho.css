@@ -42,23 +42,28 @@
     padding-bottom: 280px;
 }
 
-.item-carrinho{
+.item-carrinho {
     display: flex;
-    flex-direction: row; /* Mantém os elementos internos alinhados em linha */
+    flex-direction: row; /* A imagem e a descrição ficarão lado a lado */
     align-items: center;
     width: 93%;
     height: 120px;
     padding: 10px 0px;
-    margin: 10px auto; /* Adiciona espaçamento entre os itens */
+    margin: 10px auto;
     border-bottom: 1px solid var(--gelo);
-    
 }
+
 
 .container-carrinho {
     display: flex;
     flex-direction: column; /* Garante que os itens fiquem um abaixo do outro */
     width: 100%;
 }
+
+#listaCarrinho {
+    display: block;
+}
+
 .area-img{
     flex: 30%;
     height: 100%;

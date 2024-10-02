@@ -112,7 +112,7 @@ a{
    
 }
 
-input[type="text"] {
+#search{
     width: 90%;
     height: 45px;
     border-radius: 10px;
@@ -210,6 +210,16 @@ background: var(--branco);
     margin-bottom: 15px;
   }
 
+  .img-skeleton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+   background: var(--gelo);
+  }
+
   .img-container{
     display: flex;
     align-items: center;
@@ -237,6 +247,10 @@ background: var(--branco);
 
   .color-gray{
     color: gray;
+  }
+
+  .gelo {
+    background: var(--gelo) !important;
   }
 
   .mdi-star{
